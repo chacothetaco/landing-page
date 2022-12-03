@@ -79,6 +79,7 @@ ul {
     display: flex;
     padding: 30px;
     flex-direction: column;
+    margin-bottom: 100px;
 }
 
 .container {
@@ -116,17 +117,30 @@ ul {
 .body-three {
     display: flex;
     background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    padding: 120px;
+}
+
+.three-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
 }
 
 .quote {
     font-size: 36px;
     font-style: italic;
     font-weight: 100px;
+    max-width: 900px;
+    color: #1F2937;
+    
 }
 
 .quoter {
     font-size: 18px;
     font-weight: bolder;
+    align-self: flex-end;
 }
 
 .body-four {
