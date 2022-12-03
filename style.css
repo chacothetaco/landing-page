@@ -67,6 +67,7 @@ ul {
     padding: 10px 20px;
     border-radius: 5px;
     margin: 10px 0;
+    border-style: none;
 }
 
 .main-image {
@@ -151,11 +152,12 @@ ul {
 .four-container {
     background-color: #3882F6;
     display: flex;
-    padding: 50px;
+    padding: 50px 120px;
     align-content: center;
     justify-content: center;
-    margin: 50px;
+    margin: 100px;
     border-radius: 5px;
+    gap: 200px;
 }
 
 .four-primary {
@@ -173,6 +175,10 @@ ul {
     margin-right: auto;
 }
 
+.button-two {
+    outline-style: solid;
+    outline-color: white;
+}
 
 .footer {
     display: flex;
