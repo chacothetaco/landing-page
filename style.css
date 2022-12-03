@@ -40,6 +40,12 @@ ul {
 .body-one {
     display: flex;
     background-color: #1F2937;
+    justify-content: center;
+}
+
+.left {
+    max-width: 475px;
+    margin: 30px; 
 }
 
 .main {
@@ -60,20 +66,51 @@ ul {
     font-weight: bold;
     padding: 10px 20px;
     border-radius: 5px;
+    margin: 10px 0;
 }
 
 .main-image {
-    width: 500px;
+    width: 400px;
     height: auto;
+    padding: 30px;
 }
 
 .body-two {
     display: flex;
+    padding: 30px;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.two-header {
+    align-self: center;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 36px;
+    padding: 30px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    max-width: 200px;
+}
+
+.text {
+    text-align: center;
 }
 
 .small-image {
-    width: 100px;
-    height: auto;
+    width: 200px;
+    height: 200px;
+    padding: 5px;
 }
 
 .body-three {
