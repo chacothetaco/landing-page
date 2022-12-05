@@ -5,7 +5,7 @@ body {
 }
 
 .header {
-    background-color: #1F2937;
+    background-color: #37543e;
     display: flex;
     justify-content: space-around;
     padding: 20px;
@@ -39,7 +39,7 @@ ul {
 
 .body-one {
     display: flex;
-    background-color: #1F2937;
+    background-color: #37543e;
     justify-content: center;
 }
 
@@ -150,7 +150,7 @@ ul {
 }
 
 .four-container {
-    background-color: #3882F6;
+    background-color: #4d9d69;
     display: flex;
     padding: 50px 120px;
     align-content: center;
@@ -182,7 +182,7 @@ ul {
 
 .footer {
     display: flex;
-    background-color: #1F2937;
+    background-color: #37543e;
     color: #E5E7EB;
     font-size: 18px;
     justify-content: center;
